@@ -217,7 +217,7 @@ public class StudentsDBApp {
         email = scan.nextLine();
         rows_affected = updateStudentEmail(student_id, email);
         if (rows_affected == 1) System.out.println("updateStudentEmail() test successful.");
-        else if (rows_affected == 0) System.out.println("updateStudentEmail() ran correctly but did not add a student.");
+        else if (rows_affected == 0) System.out.println("updateStudentEmail() ran correctly but did not update student.");
         else System.out.println("updateStudentEmail() test failed.");
         System.out.println();
 
@@ -229,7 +229,7 @@ public class StudentsDBApp {
         scan.nextLine();
         rows_affected = deleteStudent(student_id);
         if (rows_affected == 1) System.out.println("deleteStudent() test successful.");
-        else if (rows_affected == 0) System.out.println("deleteStudent() ran correctly but did not add a student.");
+        else if (rows_affected == 0) System.out.println("deleteStudent() ran correctly but did not delete a student.");
         else System.out.println("deleteStudent() test failed.");
 
         // Testing complete
