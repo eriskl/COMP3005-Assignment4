@@ -1,6 +1,7 @@
 COMP 3005 Assignment 4 Part 1
 By Eris Keogh-Lim      101094703
 
+Link to demonstration video: https://youtu.be/TPkyqN3lGC4
 ========================================================================================
 
 Each of the 4 required functions are present and error-check their input, exiting gracefully if they encounter blank strings or information that violates the requirements of the students table (like an email already in use).
